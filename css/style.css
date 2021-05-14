@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Archivo Narrow', sans-serif;
+    background-image: url("../images/banknoty.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

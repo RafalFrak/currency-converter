@@ -1,0 +1,40 @@
+.form__fieldset {
+    border: 1px solid black;
+    padding: 0 30px 0 30px;
+    border-radius: 35px 0;
+    margin: 20px 0px;
+}
+
+.form__legend {
+    padding: 13px 60px;
+    background: rgba(30, 90, 60, .9);
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.form__paragraph {
+  margin: 30px 0px;
+}
+
+.form__labelText {
+    display: inline-block;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    font-size: 17px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.form__field {
+    border: 1px solid #aaa;
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}
+

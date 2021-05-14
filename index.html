@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Przelicznik wymiany walut</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik walut</legend>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Kwota w PLN*:
+                        </span>
+                        <input class="form__field js-pln" type="number" name="pln" step="0.01" min="0" required
+                            placeholder="Wpisz kwotę">
+                    </label>
+                </p>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Waluta:
+                        </span>
+                        <select class="form__field js-currency">
+                            <option value="eur">EURO</option>
+                            <option value="usd">DOLAR USD</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__paragraph">
+                    <label>
+                        <span class="form__labelText">
+                            Wynik:
+                        </span>
+                        <input class="form__field js-score" placeholder="Wynik" readonly>
+                    </label>
+                </p>
+            </fieldset>
+            <p class="form__buttons">
+                <button type="submit" class="form__button js-submit">Przelicz</button>
+                <button type="reset" class="form__button">Wyczyść!</button>
+            </p>
+        </form>
+        <p class="info">*pole obowiązkowe</p>
+    </div>
+
+</body>
+
+</html>
