@@ -3,3 +3,8 @@
 * HyperText Markup Language - HTML;
 * Cascading Style Sheets - CSS;
 * One of the most popular Java Script programming languages - JS;
+
+
+Link to the project: 
+
+  https://rafalfrak.github.io/currency-converter/
