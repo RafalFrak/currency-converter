@@ -8,3 +8,6 @@
 Link to the project: 
 
   https://rafalfrak.github.io/currency-converter/
+  
+  
+  ![giphy](https://user-images.githubusercontent.com/78790227/120204804-81ad5480-c229-11eb-90d8-c385e494aa92.gif)
